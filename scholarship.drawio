@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T08:43:13.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yPtSJz8a_aNH6d8EHbPZ" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T08:56:08.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FbzN-Rp2OhEyeUchpWNx" version="22.1.8" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="analyse project&#xa; documentation" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
-          <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
+        <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientDirection=north;fontStyle=0;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4" value="create&#xa;material&#xa;specification" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
@@ -19,11 +16,16 @@
         <mxCell id="6" value="obscurities?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="390" width="98" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="3" target="5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="321" y="204.9999999999999" as="sourcePoint" />
+            <mxPoint x="321" y="245" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9" style="entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -246,6 +248,14 @@
         </mxCell>
         <mxCell id="55" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="235" y="1624" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sAqWuy9ns5t8F-VV0FtY-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sAqWuy9ns5t8F-VV0FtY-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sAqWuy9ns5t8F-VV0FtY-65" value="isLogin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="263" y="133" width="116" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
