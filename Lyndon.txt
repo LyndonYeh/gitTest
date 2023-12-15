@@ -2,4 +2,4 @@ https://www.shubo.io/rendering-patterns/
 
 https://learn.microsoft.com/zh-tw/archive/msdn-magazine/2015/march/game-development-a-web-game-in-an-hour
 
-https://kucw.github.io/blog/2020/3/java-lombok/
+https://kucw.github.io/blog/2020/3/java-lombok/  //Lombok自動根據類別屬性編譯相關的方法(getter setter equalsAndHashmapping tostring  constructor
